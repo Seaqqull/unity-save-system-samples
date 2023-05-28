@@ -2,7 +2,7 @@
     "name": "com.seaqqull.save-system.samples",
     "version": "0.3.1",
     "displayName": "Save System Samples",
-    "description": "Samples of different aspects of the save system.",
+    "description": "Samples of different aspects of the save system. \nRequires installation of the package: \nhttps://github.com/Seaqqull/unity-save-system.git?path=/UnitySaveSystem/Assets/com.seaqqull.save-system",
     "unity": "2021.3",
     "unityRelease": "13f1",
     "documentationUrl": "https://github.com/Seaqqull/unity-save-system-samples?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system.samples/Documentation/com.seaqqull.save-system.samples.md",
