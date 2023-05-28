@@ -1,3 +1,9 @@
+## [0.3.1] - 2023-05-28
+
+### Fixed
+- Removed dependency from Save-System in package.json
+
+
 ## [0.3.0] - 2023-05-23
 
 ### Added

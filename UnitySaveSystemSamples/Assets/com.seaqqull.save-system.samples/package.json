@@ -1,6 +1,6 @@
 {
     "name": "com.seaqqull.save-system.samples",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "displayName": "Save System Samples",
     "description": "Samples of different aspects of the save system.",
     "unity": "2021.3",
@@ -10,8 +10,7 @@
     "licenseUrl" : "https://github.com/Seaqqull/unity-save-system-samples?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system-samples/LICENSE.md",
     "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.textmeshpro": "3.0.6",
-        "com.seaqqull.save-system": "https://github.com/Seaqqull/unity-save-system.git?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system#main"
+        "com.unity.textmeshpro": "3.0.6"
     },
     "keywords": ["Save", "System", "Samples", "Examples"],
     "author": {
