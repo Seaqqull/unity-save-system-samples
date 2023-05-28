@@ -1,0 +1,27 @@
+{
+    "name": "com.seaqqull.save-system.samples",
+    "version": "0.3.0",
+    "displayName": "Save System Samples",
+    "description": "Samples of different aspects of the save system.",
+    "unity": "2021.3",
+    "unityRelease": "13f1",
+    "documentationUrl": "https://github.com/Seaqqull/unity-save-system-samples?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system.samples/Documentation/com.seaqqull.save-system.samples.md",
+    "changelogUrl": "https://github.com/Seaqqull/unity-save-system-samples?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system.samples/CHANGELOG.md",
+    "licenseUrl" : "https://github.com/Seaqqull/unity-save-system-samples?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system-samples/LICENSE.md",
+    "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.seaqqull.save-system": "https://github.com/Seaqqull/unity-save-system.git?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system#main"
+    },
+    "keywords": ["Save", "System", "Samples", "Examples"],
+    "author": {
+        "name": "Seaqqull",
+        "email": "seaqqullsocial@gmail.com",
+        "url": "https://github.com/Seaqqull"
+    },
+    "repository": {
+        "url": "https://github.com/Seaqqull/unity-save-system-samples.git",
+        "type": "git",
+        "revision": "a7e334fa83dc797651410ec654f6c8b4f5493979"
+    }
+}
