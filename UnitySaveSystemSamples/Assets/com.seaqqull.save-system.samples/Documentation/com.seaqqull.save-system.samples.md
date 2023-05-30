@@ -1,4 +1,4 @@
-# About Save-System package (`com.seaqqull.save-system.samples`)
+# About Save-System Samples package (`com.seaqqull.save-system.samples`)
 
 ## Package contents
 
@@ -30,3 +30,17 @@ project by:
 3. Select `Add package from git URL...`
 4. Enter "https://github.com/Seaqqull/unity-save-system-samples.git?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system.samples".
 5. Click `Add` button.
+
+## Setup
+
+Once the package has been successfully installed, it is required to perform certain steps in order to run it:
+1. Navigate `File` -> `Build Settings...`.
+2. Add into `Scenes In Build` scenes from the package in the given order (indexes):
+    - 0: scn_base &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Located under path: `com.seaqqull.save-system.samples/Runtime/StaticAssets/Scenes/`
+    - 1: scn_example_1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Located under `com.seaqqull.save-system.samples/Runtime/StaticAssets/Scenes/Examples/01/`
+    - 2: scn_example_2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Located under `com.seaqqull.save-system.samples/Runtime/StaticAssets/Scenes/Examples/02/`
+    - 3: scn_example_2_1 &nbsp; -> Located under `com.seaqqull.save-system.samples/Runtime/StaticAssets/Scenes/Examples/02/`
+    - 4: scn_example_2_2 &nbsp; -> Located under `com.seaqqull.save-system.samples/Runtime/StaticAssets/Scenes/Examples/02/`
+    - 5: scn_example_3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Located under `com.seaqqull.save-system.samples/Runtime/StaticAssets/Scenes/Examples/03/`
+3. Now you can run the samples.
+    - Open the `scn_base` scene, and run it.
