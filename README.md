@@ -3,6 +3,7 @@ Example of [Save-System] usage.
 
 ## Description
 Allows to understand the functionality of the [Save-System].
+[Documentation] contains step-by-step instruction of usage.
 
 ## Functionality
 - Showcase of auto-saves
@@ -32,3 +33,4 @@ project by:
 5. Click `Add` button.
 
 [Save-System]: https://github.com/Seaqqull/unity-save-system
+[Documentation]: https://github.com/Seaqqull/unity-save-system-samples?path=/UnitySaveSystemSamples/Assets/com.seaqqull.save-system.samples/Documentation/com.seaqqull.save-system.samples.md
