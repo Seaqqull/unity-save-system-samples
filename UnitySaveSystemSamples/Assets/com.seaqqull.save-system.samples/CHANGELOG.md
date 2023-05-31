@@ -1,7 +1,12 @@
+## [0.3.2] - 2023-05-31
+
+### Changed
+- Path for [CreateAssetMenu] actions
+
 ## [0.3.1] - 2023-05-28
 
 ### Fixed
-- Removed dependency from Save-System in package.json
+- Removed dependency from Save-System in package.json. As Unity can't handle that.
 
 
 ## [0.3.0] - 2023-05-23
