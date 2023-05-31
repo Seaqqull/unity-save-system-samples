@@ -12,6 +12,7 @@ The following table describes the package folder structure:
 <a name="Installation"></a>
 
 ## Installation
+Note: Requires pre-installation of [Save-System].
 
 ### Local Installation
 You can [add the local](https://docs.unity3d.com/Manual/upm-ui-local.html)
@@ -44,3 +45,5 @@ Once the package has been successfully installed, it is required to perform cert
     - 5: scn_example_3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> Located under `com.seaqqull.save-system.samples/Runtime/StaticAssets/Scenes/Examples/03/`
 3. Now you can run the samples.
     - Open the `scn_base` scene, and run it.
+
+[Save-System]: https://github.com/Seaqqull/unity-save-system
