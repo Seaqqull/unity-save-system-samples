@@ -6,7 +6,7 @@ using System;
 
 namespace SaveSystem.Additional.Actions.Specific
 {
-    [CreateAssetMenu(fileName = "SceneLoadAction", menuName = "Actions/Simple/LoadScene", order = 0)]
+    [CreateAssetMenu(fileName = "SceneLoadAction", menuName = "Save-System Samples/Actions/Simple/LoadScene", order = 0)]
     public class LoadSceneActionSO : ActionSO
     {
         [SerializeField] private int _sceneId;

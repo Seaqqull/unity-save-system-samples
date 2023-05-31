@@ -6,7 +6,7 @@ using System;
 
 namespace SaveSystem.Additional.Actions.Specific
 {
-    [CreateAssetMenu(fileName = "SceneLoadCallbackAction", menuName = "Actions/Callback/LoadScene", order = 0)]
+    [CreateAssetMenu(fileName = "SceneLoadCallbackAction", menuName = "Save-System Samples/Actions/Callback/LoadScene", order = 0)]
     public class SceneLoadCallbackActionSO : CallbackActionSO
     {
         [SerializeField] private int _sceneId;

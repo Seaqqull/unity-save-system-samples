@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace SaveSystem.Additional.Actions.Specific
 {
-    [CreateAssetMenu(fileName = "CloseApplication", menuName = "Actions/Simple/CloseApplication", order = 0)]
+    [CreateAssetMenu(fileName = "CloseApplication", menuName = "Save-System Samples/Actions/Simple/CloseApplication", order = 0)]
     public class CloseApplicationSO : ActionSO
     {
         public override void Do()
