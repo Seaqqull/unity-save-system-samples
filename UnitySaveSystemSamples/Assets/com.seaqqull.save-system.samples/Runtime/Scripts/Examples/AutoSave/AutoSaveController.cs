@@ -26,12 +26,14 @@ namespace SaveSystem.Examples
         [SerializeField] private Slider _slider;
         [SerializeField] private TMP_Text _minText;
         [SerializeField] private TMP_Text _maxText;
+        [SerializeField] private Slider _waitSlider;
         [Space]
         [SerializeField] private Transform _snackbarTransform;
         [SerializeField] private Snackbar _snackbar;
 
         private Coroutine _saveCoroutine;
         private int _saveCounter = 1;
+        private float _waitProgress;
 
         
         private void Awake()
@@ -46,12 +48,18 @@ namespace SaveSystem.Examples
             _slider.maxValue = MAX_SAVE_TIME;
             _slider.value = _savePeriod;
             
-            _slider.onValueChanged.AddListener((newValue) => _savePeriod = newValue);
+            _slider.onValueChanged.AddListener(UpdateSaveProgress);
         }
 
         private void OnDestroy()
         {
             StopCoroutine(_saveCoroutine);
+        }
+
+        private void UpdateSaveProgress(float savePeriod)
+        {
+            _savePeriod = savePeriod;
+            _waitProgress = 0.0f;
         }
 
 
@@ -72,7 +80,15 @@ namespace SaveSystem.Examples
         {
             while (true)
             {
-                yield return new WaitForSeconds(_savePeriod);
+                yield return null;
+                
+                _waitProgress += Time.deltaTime;
+                _waitSlider.value = (_waitProgress / _savePeriod);
+
+                if (_waitProgress < _savePeriod)
+                    continue;
+                
+                _waitProgress = 0.0f;
                 
                 MakeSave();
                 _view.UpdateView();

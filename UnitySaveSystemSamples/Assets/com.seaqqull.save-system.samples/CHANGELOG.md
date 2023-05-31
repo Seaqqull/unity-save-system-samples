@@ -1,3 +1,9 @@
+## [0.3.3] - 2023-05-31
+
+### Added
+- Response on clicking Save button
+- Visualization of Auto-Save progress
+
 ## [0.3.2] - 2023-05-31
 
 ### Changed
