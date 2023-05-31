@@ -416,6 +416,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &422751880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 422751881}
+  m_Layer: 5
+  m_Name: Snackbar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &422751881
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422751880}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 822170073}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -128}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &572420371
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,6 +1010,7 @@ RectTransform:
   - {fileID: 638426176}
   - {fileID: 1815465151}
   - {fileID: 55555304}
+  - {fileID: 422751881}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1693,6 +1730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1580368613}
   - component: {fileID: 1580368612}
+  - component: {fileID: 1580368614}
   m_Layer: 0
   m_Name: System
   m_TagString: Untagged
@@ -1716,6 +1754,7 @@ MonoBehaviour:
   _dontDestroyOnLoad: 0
   _id: 22
   _worldId: second_world
+  _continuousStateBackup: 0
 --- !u!4 &1580368613
 Transform:
   m_ObjectHideFlags: 0
@@ -1731,6 +1770,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1580368614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580368611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b92bebab3d54ea98930b1a2b311d6bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <SnackbarTransform>k__BackingField: {fileID: 422751881}
 --- !u!1 &1700529742
 GameObject:
   m_ObjectHideFlags: 0
