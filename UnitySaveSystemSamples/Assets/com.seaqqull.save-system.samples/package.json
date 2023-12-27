@@ -1,6 +1,6 @@
 {
     "name": "com.seaqqull.save-system.samples",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "displayName": "Save System Samples",
     "description": "Samples of different aspects of the save system. \nRequires installation of the package: \nhttps://github.com/Seaqqull/unity-save-system.git?path=/UnitySaveSystem/Assets/com.seaqqull.save-system",
     "unity": "2021.3",
@@ -21,6 +21,6 @@
     "repository": {
         "url": "https://github.com/Seaqqull/unity-save-system-samples.git",
         "type": "git",
-        "revision": "e805aaeeb89a42107046f97f8cad5ccd935ec2d1"
+        "revision": "40510635bcabbd0a4f0e4ae3c460ef92c933d9ef"
     }
 }
